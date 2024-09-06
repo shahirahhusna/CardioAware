@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_symptoms"
+            android:icon="@drawable/symptom"
+            android:iconTint="@color/black"
+            android:title="Symptoms" />
+        <item
+            android:id="@+id/nav_risk"
+            android:icon="@drawable/baseline_assignment_late_24"
+            android:iconTint="@color/black"
+            android:title="Factor" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/baseline_emoji_food_beverage_24"
+            android:iconTint="@color/black"
+            android:title="Diet" />
+        <item
+            android:id="@+id/nav_lifestyle"
+            android:icon="@drawable/baseline_home_24"
+            android:iconTint="@color/black"
+            android:title="Lifestyle" />
+        <item
+            android:id="@+id/nav_medications"
+            android:icon="@drawable/baseline_directions_run_24"
+            android:iconTint="@color/black"
+            android:title="Exercise" />
+    </group>
+</menu>

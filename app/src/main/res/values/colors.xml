@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#68222A</color>
+    <color name="softred">#ED6969</color>
+    <color name="softerred">#E6CECE</color>
+    <color name="darkblue">#1B3269</color>
+    <color name="softblue">#A5C9EF</color>
+    <color name="blue">#6781BD</color>
+    <color name="transparent">#006781BD</color> <!-- 50% transparency (80 alpha) -->
+    <color name="whitesoft">#97FFFFFF</color>
+    <color name="bluetr">#8B6781BD</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cardio_Aware</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_info">Info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_symptoms">Symptoms</string>
+    <item name="nav_home" type="id" />
+    <item name="nav_symptoms" type="id" />
+    <string name="cad">
+        Chest Pain (Angina): Occurs during exertion or stress, alleviated by rest.
+    </string>
+    <string name="heartfailure">
+        Shortness of Breath: Particularly noticeable during exertion or while lying down.\
+        Edema: Swelling in legs, ankles, and feet.\
+    Fatigue: Chronic tiredness and reduced exercise capacity.
+    </string>
+    <string name="gender1">
+        Cardiovascular disease (CVD) symptoms can vary significantly between men and women, often leading to differences in diagnosis and treatment.
+    </string>
+    <string name="gender2">
+        <b>Women</b> are more likely to experience non-traditional or atypical symptoms compared to men, which can sometimes delay recognition and treatment.
+    </string>
+</resources>

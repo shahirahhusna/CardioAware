@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_symptoms">
+
+    <fragment
+        android:id="@+id/nav_symptoms"
+        android:name="com.example.cardio_aware.ui.symptoms.SymptomsFragment"
+        android:label="@string/menu_symptoms"
+        tools:layout="@layout/fragment_symptoms"
+        />
+    <fragment
+        android:id="@+id/nav_medications"
+        android:name="com.example.cardio_aware.ui.medications.MedicationsFragment"
+        android:label="Medications"
+        tools:layout="@layout/fragment_medications" />
+    <fragment
+        android:id="@+id/nav_lifestyle"
+        android:name="com.example.cardio_aware.ui.lifestyle.LifestyleFragment"
+        android:label="Lifestyle"
+        tools:layout="@layout/fragment_lifestyle" />
+    <fragment
+        android:id="@+id/nav_risk"
+        android:name="com.example.cardio_aware.ui.risk.RiskFragment"
+        android:label="Risk"
+        tools:layout="@layout/fragment_risk" />
+    <fragment
+        android:id="@+id/nav_diet"
+        android:name="com.example.cardio_aware.ui.diet.DietFragment"
+        android:label="Diet"
+        tools:layout="@layout/fragment_diet" />
+
+</navigation>

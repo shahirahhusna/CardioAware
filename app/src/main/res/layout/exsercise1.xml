@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dietbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/bluetr"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exercise"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="50sp"
+                    android:fontFamily="@font/bebas_neue"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adults are advised to do at least 150 minutes of moderate activity a week, such as cycling or brisk walking."
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="40dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="-10dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_directions_run_24"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ui1"
+            android:layout_marginTop="-170dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ui1"
+            android:layout_gravity="end"
+            android:layout_marginTop="-170dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ui1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Walking"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Walking is a low-impact aerobic exercise that can be easily incorporated into daily life. It involves briskly moving the body by placing one foot in front of the other, typically at a moderate pace."
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="-10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/walk" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Running"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ui1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Running involves moving at a faster pace than walking, with both feet leaving the ground at certain intervals. It can be performed outdoors or on a treadmill."
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="textStart"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/run" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ui1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Cycling"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cycling involves riding a bicycle, either outdoors or on a stationary bike. It provides a low-impact cardiovascular workout that engages various muscle groups."
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="textStart"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/cycle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Swimming"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ui1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swimming increases heart rate and improves circulation, enhancing cardiovascular health."
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/swim" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ui1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Dancing"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dance involves continuous movement and aerobic activity, making it an effective cardiovascular exercise that strengthens the heart and improves circulation."
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="textStart"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/dance" />
+
+    </LinearLayout>
+
+</ScrollView>
